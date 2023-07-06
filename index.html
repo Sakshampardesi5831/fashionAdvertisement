@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GSAP Animation with SWIPER JS </title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+  />
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!----CONTAINER MAIN DIV---->
+    <div class="swiper">
+        <!------------------WRAPPER DIV WHERE ALL THE SLIDE ARE SET----------------------------->
+        <div class="swiper-wrapper">
+            <!------------------Swiper Slider 1 -------------------------------------->
+            <div class="swiper-slide" style="background-color:#8e090d;">
+              <div class="swiper-item" style="background-image: url(./images/1_1.jpg);"></div>
+              <span class="number">01</span>
+              <div class="slide-text" style="background-color: #8e090d;">
+                <h1>Fashion Trends 2021</h1>
+                <p>clothing stores limited</p>
+                <button class="btn">buy</button>
+             </div>
+            </div>
+             <!------------------Swiper Slider 1 -------------------------------------->
+            <!------------------Swiper Slider 2--------------------------------------->
+            <div class="swiper-slide" style="background-color:#f4a604;">
+                <div class="swiper-item" style="background-image: url(./images/2.jpg);"></div>
+                <span class="number">02</span>
+                <div class="slide-text" style="background-color:#f4a604;">
+                  <h1>Spring Summer 2021</h1>
+                  <p>Clothing stores limited</p>
+                  <button class="btn">buy</button>
+               </div>
+            </div>
+             <!------------------Swiper Slider 2--------------------------------------->
+             <!------------------Swiper Slider 3--------------------------------------->
+            <div class="swiper-slide" style="background-color:#6aa3ad  ;">
+                <div class="swiper-item" style="background-image:url(./images/3.jpg);"></div>
+                <span class="number">03</span>
+                <div class="slide-text" style="background-color:#6aa4ae  ;">
+                  <h1>Wake to Fresh Breath</h1>
+                  <p>Summer Sales</p>
+                  <button class="btn">buy</button>
+               </div>
+            </div>
+             <!------------------Swiper Slider 3--------------------------------------->
+            <!------------------Swiper Slider 4--------------------------------------->
+            <div class="swiper-slide" style="background-color:#171e2a;">
+                <div class="swiper-item" style="background-image: url(./images/4.jpg);"></div>
+                <span class="number">03</span>
+                <div class="slide-text" style="background-color:#171e2a ;">
+                  <h1>BE SMART</h1>
+                  <p>Winter collection</p>
+                  <button class="btn">buy</button>
+               </div>
+            </div>
+             <!------------------Swiper Slider 4--------------------------------------->
+              <!------------------Swiper Slider 5--------------------------------------->
+            <div class="swiper-slide" style="background-color:#deddd9;">
+                <div class="swiper-item" style="background-image: url(./images/5.jpg);"></div>
+                <span class="number">04</span>
+                <div class="slide-text" style="background-color:#deddd9;">
+                  <h1>Traditional Fashion collection</h1>
+                  <p>Celebration wear 2021</p>
+                  <button class="btn">Book</button>
+               </div>
+            </div>
+             <!------------------Swiper Slider 5--------------------------------------->
+        </div>
+         <!------------------PAGINATION------------------------------------------------------>
+         <div class="swiper-pagination"></div>
+         <!--------------------Navigation Arrows------------------------------------------------------------>
+         <div class="swiper-arrows">
+            <div class="swiper-button-prev"> <span></span> </div>
+            <div class="swiper-button-next"> <span></span> </div>
+         </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js" integrity="sha512-f8mwTB+Bs8a5c46DEm7HQLcJuHMBaH/UFlcgyetMqqkvTcYg4g5VXsYR71b3qC82lZytjNYvBj2pf0VekA9/FQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="index.js"></script>
+</body>
+</html>
